@@ -43,7 +43,7 @@ def hit?(card_total)
   if input == 's' 
     card_total
   elsif input == 'h'
-    deal_card += 
+    deal_card += card_total
   puts deal_card + card_total
   # code hit? here
 end
