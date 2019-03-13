@@ -67,7 +67,6 @@ def runner
   hit?(cards)
   cards += deal_card
   display_card_total(cards)
-  
 end
 end_game
   # code runner here
