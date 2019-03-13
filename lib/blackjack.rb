@@ -66,7 +66,7 @@ def runner
   until cards >= 21 do 
   hit?(cards)
   cards += deal_card
-  display cards
+  display_card_total(cards)
   
 end
 end_game
