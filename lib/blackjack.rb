@@ -62,7 +62,7 @@ end
 
 def runner
   welcome
-  initial_round
+  carinitial_round
   until card_total =>21
   prompt_user
   hit?
