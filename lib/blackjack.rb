@@ -68,7 +68,7 @@ def runner
   cards += deal_card
   display_card_total(cards)
 end
-end_game
+end_game(cards)
   # code runner here
 end
     
