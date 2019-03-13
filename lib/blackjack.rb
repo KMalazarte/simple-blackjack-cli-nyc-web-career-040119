@@ -65,7 +65,7 @@ def runner
   cards = initial_round
   until cards >= 21 do 
   hit?(cards)
-  cards += 
+  cards += deal_card
   
 end
 end_game
