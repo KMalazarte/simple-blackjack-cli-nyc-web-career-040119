@@ -44,6 +44,7 @@ def hit?(card_total)
     card_total
   elsif input == 'h'
     deal_card += card_total
+    
   puts deal_card + card_total
   # code hit? here
 end
